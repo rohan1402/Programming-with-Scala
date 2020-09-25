@@ -1,0 +1,25 @@
+//Leap Year
+
+def leap_year(year: Int) {
+	if (year % 400 == 0) {
+		println("It is a leap year");
+	}
+	else if(year % 100 == 0) {
+		println("It is not a leap year");
+	}
+	else if (year % 4 == 0) {
+		println("It is a leap year");
+	}
+	else {
+		println("It is not a leap year");
+	}
+}
+
+println(leap_year(2001))
+//--> It is not a leap year
+
+println(leap_year(2100))
+//--> It is not a leap year
+
+println(leap_year(2000))
+//--> It is a leap year
