@@ -12,6 +12,7 @@ println(f2(30))
 
 
 
+
 def log(date: Date, message: String) = {
 	println(date + " " + message)
 }
